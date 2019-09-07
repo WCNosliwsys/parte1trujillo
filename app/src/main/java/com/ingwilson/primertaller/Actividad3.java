@@ -22,4 +22,8 @@ public class Actividad3 extends AppCompatActivity {
     public void mispinner(View view) {
         startActivity(new Intent(this, MiSpinner.class));
     }
+
+    public void fragmenttabhost(View view) {
+        startActivity(new Intent(this, MiFragmentTabHost.class));
+    }
 }

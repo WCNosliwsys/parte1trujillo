@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MiSpinner"></activity>
+        <activity android:name=".MiFragmentTabHost"></activity>
+        <activity android:name=".MiSpinner" />
         <activity android:name=".Actividad3">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
