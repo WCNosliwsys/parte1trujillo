@@ -21,6 +21,12 @@
         android:text="@string/opcion1"
         android:onClick="actividad2"
         />
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/opcion5"
+        android:onClick="mispinner"
+        />
     <Button android:id="@+id/button02"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"

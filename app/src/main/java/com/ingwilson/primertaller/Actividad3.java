@@ -18,4 +18,8 @@ public class Actividad3 extends AppCompatActivity {
     public void actividad2(View view) {
         startActivity(new Intent(this, Main2Activity.class));
     }
+
+    public void mispinner(View view) {
+        startActivity(new Intent(this, MiSpinner.class));
+    }
 }
